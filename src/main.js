@@ -20,7 +20,7 @@ Vue.use(IconsPlugin);
 Vue.use(VueClipboard);
 
 Vue.prototype.http = axios;
-Vue.prototype.server = 'http://192.168.1.101:7125';//服务器处理地址
+Vue.prototype.server = 'http://192.168.1.100:7125';//服务器处理地址
 Vue.prototype.domain = 'https://images.xuthus.cc';//又拍云加速域名
 Vue.config.productionTip = false;
 

@@ -15,21 +15,9 @@ const routes = [
     component: () => import('../views/SignIn.vue')
   },
   {
-    path: '/signout',
-    name: 'SignOut',
-    component: () => import('../views/SignOut.vue')
-  },
-  {
     path: '/admin',
     name: 'Dashboard',
-    component: () => import('../layouts/Dashboard.vue'),
-    children: [
-      {
-        path: 'index',
-        name: 'List',
-        component: () => import('../views/Dashboard.vue')
-      }
-    ]
+    component: () => import('../views/Admin.vue'),
   }
 ];
 

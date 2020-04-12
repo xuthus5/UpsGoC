@@ -98,6 +98,9 @@
                 </b-container>
             </div>
         </main>
+        <footer>
+            <router-link :to="{name:'Home'}" class="btn btn-primary">回首页</router-link>
+        </footer>
         <b-modal id="upload" centered title="上传" hide-footer hide-header-close>
             <div class="text-center p-4">
                 <vue-dropzone ref="myVueDropzone" id="dropzone" :options="dropzoneOptions" :useCustomSlot=true

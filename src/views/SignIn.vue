@@ -59,7 +59,7 @@
                         localStorage.setItem("_token",response.data.message);
                         //跳转到后台
                         this.$router.push({
-                            path: this.redirect || "/admin/index"
+                            path: this.redirect || "/admin"
                         });
                     })
                     .catch(error => {
